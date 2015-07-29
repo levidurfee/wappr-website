@@ -22,13 +22,15 @@
     }
     #header {
       background-color: #2c3e50;
+      border-bottom:5px solid #27ae60;
     }
     #content {
-      background-color:#27ae60;
+      background-color:#2c3e50;
+      border-bottom:5px solid #27ae60;
       min-height:50%;
     }
     #footer {
-      background-color: #34495e;
+      background-color: #2c3e50;
     }
     #header, #content, #footer {
       width:80%;
@@ -67,5 +69,6 @@
   <div id="footer">
     <p>Copyright &copy; wappr.co 2015. Don't try and contact us.</p>
   </div>
+  <!-- <?php echo php_uname(); ?> -->
 </body>
 </html>
