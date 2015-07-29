@@ -7,6 +7,7 @@
   <title>Wappr</title>
   <meta name="description" content="A group of web guys making stuff">
   <meta name="author" content="Levi Durfee">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <style>
     html {
@@ -44,8 +45,22 @@
         color:#ecf0f1;
         font-family: 'Oswald', sans-serif;
     }
+    ul {
+      margin-left:40px;
+    }
     #footer p {
       font-size:small;
+    }
+    @media screen and (max-width: 799px) {
+      #header, #content, #footer {
+        min-width:90%;
+      }
+      h1, h2, p, li {
+        font-size:2.8em;
+      }
+      ul {
+        margin-left:10px;
+      }
     }
   </style>
   <!--[if lt IE 9]>
