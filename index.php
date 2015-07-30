@@ -8,7 +8,6 @@
   <meta name="description" content="A group of web guys making stuff">
   <meta name="author" content="Levi Durfee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <style>
     html {
         height:100%;
@@ -48,7 +47,7 @@
     p {margin-top:5px;}
     h1, h2, p, li, small {
         color:#ecf0f1;
-        font-family: 'Oswald', sans-serif;
+        font-family: "Arial Narrow",Arial,sans-serif
     }
     .lead { font-size: 3.2em;}
     ul {
