@@ -80,9 +80,6 @@
 	  background: #2ecc71;
 	}
 
-    .footer {position:absolute; height:100px; bottom:0;}
-    .beforefooter {padding-bottom:100px;
-
     @media screen and (max-width: 799px) {
       #header, #content, #footer {
         min-width:90%;
@@ -120,7 +117,6 @@
             <li>Write 100% code coverage with PHPUnit</li>
         </ul>
     </div><!-- /#content -->
-    <div class="beforefooter"></div>
     <div id="footer">
         <p>Copyright &copy; wappr.co 2015.</p>
     </div><!-- /#footer -->
