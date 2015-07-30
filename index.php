@@ -38,19 +38,27 @@
       margin: auto;
       padding:2.5%;
     }
-    h1, h2, p, li {
-        font-size:3.8em;
+    h1 {
+        font-size:4.8em;
+        margin:0;
+        padding:0;
     }
+    h2 { font-size:3.8em;}
+    p, li { font-size:2.5em; }
+    p {margin-top:5px;}
     h1, h2, p, li, small {
         color:#ecf0f1;
         font-family: 'Oswald', sans-serif;
     }
+    .lead { font-size: 3.2em;}
     ul {
       margin-left:40px;
     }
     #footer p {
       font-size:small;
     }
+
+    a {color:#2ecc71;}
 
     ::selection {
 	  background: #2ecc71;
@@ -62,11 +70,11 @@
       #header, #content, #footer {
         min-width:90%;
       }
-      h1, h2, p, li {
-        font-size:2.8em;
-      }
+      h1 { font-size:3.8em; }
+      h2 { font-size:2.8em; }
+      p, li { font-size: 1.8em;}
       ul {
-        margin-left:10px;
+        margin-left:0px;
       }
     }
   </style>
@@ -80,10 +88,23 @@
     <h1>Wappr</h1>
   </div>
   <div id="content">
-    <p>A group of web guys coming together to make stuff.</p>
+    <p class="lead">A group of web guys coming together to make stuff.</p>
+    <h2>Projects</h2>
+    <p>Most of our projects will be in PHP. We will add more information about each project as we have time.</p>
+    <ul>
+		<li>support ticket system</li>
+		<li>sqlite logging using PSR-3</li>
+		<li>and more...</li>
+    </ul>
+    <h2>Goals</h2>
+    <ul>
+		<li><a href="https://secure.php.net/supported-versions.php" target="_BLANK">Develop for php 5.6.x and up</a></li>
+		<li><a href="http://www.php-fig.org/" target="_BLANK">Follow PSR</a></li>
+		<li>Write 100% code coverage with PHPUnit</li>
+    </ul>
   </div>
   <div id="footer">
-    <p>Copyright &copy; wappr.co 2015. Don't try and contact us.</p>
+    <p>Copyright &copy; wappr.co 2015.</p>
   </div>
   <!-- <?php echo php_uname(); ?> -->
 </body>
