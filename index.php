@@ -1,5 +1,6 @@
 <?php
   $description = "A group of web guys coming together to make web applications and useful packages.";
+  $modified = date ("Y-m-d H:i:s.", filemtime('index.php');
 ?>
 <!doctype html>
 
@@ -18,6 +19,7 @@
   <meta property="og:description" content="<?php echo $description; ?>" />
   <meta name="keywords" content="wappr, web, developers, projects, php, ticket, system" />
   <meta name="description" content="<?php echo $description; ?>" />
+  <meta http-equiv="last-modified" content="<?php echo $modified; ?>">
   <link rel='canonical' href='https://wappr.co/' />
   <style>
     html {
