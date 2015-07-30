@@ -51,6 +51,13 @@
     #footer p {
       font-size:small;
     }
+
+    ::selection {
+	  background: #2ecc71;
+	}
+	::-moz-selection {
+	  background: #2ecc71;
+	}
     @media screen and (max-width: 799px) {
       #header, #content, #footer {
         min-width:90%;
