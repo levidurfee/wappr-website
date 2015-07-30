@@ -8,7 +8,7 @@
   <meta name="description" content="A group of web guys making stuff">
   <meta name="author" content="Levi Durfee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   <style>
     html {
         height:100%;
