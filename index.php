@@ -1,13 +1,12 @@
-<?php
-  $description = "A group of web guys coming together to make web applications and useful packages.";
-  $modified = date("Y-m-d H:i:s.", filemtime('index.php'));
-?>
 <!doctype html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+<?php
+  $description = "A group of web guys coming together to make web applications and useful packages.";
+  $modified = date("Y-m-d H:i:s.", filemtime('index.php'));
+?>
   <title>Wappr</title>
   <meta name="description" content="<?php echo $description; ?>">
   <meta name="author" content="wappr team">
@@ -44,6 +43,8 @@
     }
     #footer {
       background-color: #2c3e50;
+      border-bottom:5px solid #27ae60;
+      bottom:;
     }
     #header, #content, #footer {
       width:80%;
@@ -78,6 +79,10 @@
 	::-moz-selection {
 	  background: #2ecc71;
 	}
+
+    .footer {position:absolute; height:100px; bottom:0;}
+    .beforefooter {padding-bottom:100px;
+
     @media screen and (max-width: 799px) {
       #header, #content, #footer {
         min-width:90%;
@@ -115,6 +120,7 @@
             <li>Write 100% code coverage with PHPUnit</li>
         </ul>
     </div><!-- /#content -->
+    <div class="beforefooter"></div>
     <div id="footer">
         <p>Copyright &copy; wappr.co 2015.</p>
     </div><!-- /#footer -->
