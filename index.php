@@ -96,28 +96,28 @@
 </head>
 
 <body>
-  <div id="header">
-    <h1>Wappr</h1>
-  </div>
-  <div id="content">
-    <p class="lead"><?php echo $description; ?></p>
-    <h2>Projects</h2>
-    <p>Most of our projects will be in PHP. We will add more information about each project as we have time.</p>
-    <ul>
-		<li>support ticket system</li>
-		<li>sqlite logging using PSR-3</li>
-		<li>and more...</li>
-    </ul>
-    <h2>Goals</h2>
-    <ul>
-		<li><a href="https://secure.php.net/supported-versions.php" target="_BLANK">Develop for php 5.6.x and up</a></li>
-		<li><a href="http://www.php-fig.org/" target="_BLANK">Follow PSR</a></li>
-		<li>Write 100% code coverage with PHPUnit</li>
-    </ul>
-  </div>
-  <div id="footer">
-    <p>Copyright &copy; wappr.co 2015.</p>
-  </div>
+    <div id="header">
+        <h1>Wappr</h1>
+    </div><!-- /#header -->
+    <div id="content">
+        <p class="lead"><?php echo $description; ?></p>
+        <h2>Projects</h2>
+        <p>Most of our projects will be in PHP. We will add more information about each project as we have time.</p>
+        <ul>
+            <li>support ticket system</li>
+            <li>sqlite logging using PSR-3</li>
+            <li>and more...</li>
+        </ul>
+        <h2>Goals</h2>
+        <ul>
+            <li><a href="https://secure.php.net/supported-versions.php" target="_BLANK">Develop for php 5.6.x and up</a></li>
+            <li><a href="http://www.php-fig.org/" target="_BLANK">Follow PSR</a></li>
+            <li>Write 100% code coverage with PHPUnit</li>
+        </ul>
+    </div><!-- /#content -->
+    <div id="footer">
+        <p>Copyright &copy; wappr.co 2015.</p>
+    </div><!-- /#footer -->
   <!-- <?php echo php_uname(); ?> -->
 </body>
 </html>
