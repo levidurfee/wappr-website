@@ -74,12 +74,6 @@
   </div>
   <div id="content">
     <p>A group of web guys coming together to make stuff.</p>
-    <h2>What we know</h2>
-    <ul>
-      <li>websites</li>
-      <li>servers</li>
-      <li>things we would find useful</li>
-    </ul>
   </div>
   <div id="footer">
     <p>Copyright &copy; wappr.co 2015. Don't try and contact us.</p>
