@@ -1,6 +1,6 @@
 <?php
   $description = "A group of web guys coming together to make web applications and useful packages.";
-  $modified = date ("Y-m-d H:i:s.", filemtime('index.php');
+  $modified = date("Y-m-d H:i:s.", filemtime('index.php'));
 ?>
 <!doctype html>
 
