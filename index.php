@@ -8,6 +8,13 @@
   <meta name="description" content="A group of web guys making stuff">
   <meta name="author" content="Levi Durfee">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content= "Wappr" />
+  <meta property="og:image" content="https://cdn.ween.io/w/og-wapper.png" />
+  <meta property="og:url" content="https://wappr.co/" />
+  <meta name="keywords" content="wappr, web, developers, projects, php, ticket, system" />
+  <meta name="description" content="A group of web guys coming together to make stuff." />
+  <link rel='canonical' href='https://wappr.co/' />
   <style>
     html {
         height:100%;
