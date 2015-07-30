@@ -1,3 +1,6 @@
+<?php
+  $description = "A group of web guys coming together to make web applications and useful packages.";
+?>
 <!doctype html>
 
 <html lang="en">
@@ -5,16 +8,16 @@
   <meta charset="utf-8">
 
   <title>Wappr</title>
-  <meta name="description" content="A group of web guys making stuff">
-  <meta name="author" content="Levi Durfee">
+  <meta name="description" content="<?php echo $description; ?>">
+  <meta name="author" content="wappr team">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content= "Wappr" />
   <meta property="og:image" content="https://cdn.ween.io/w/og-wapper.png" />
   <meta property="og:url" content="https://wappr.co/" />
-  <meta property="og:description" content="A group of web guys coming together to make stuff." />
+  <meta property="og:description" content="<?php echo $description; ?>" />
   <meta name="keywords" content="wappr, web, developers, projects, php, ticket, system" />
-  <meta name="description" content="A group of web guys coming together to make stuff." />
+  <meta name="description" content="<?php echo $description; ?>" />
   <link rel='canonical' href='https://wappr.co/' />
   <style>
     html {
@@ -95,7 +98,7 @@
     <h1>Wappr</h1>
   </div>
   <div id="content">
-    <p class="lead">A group of web guys coming together to make stuff.</p>
+    <p class="lead"><?php echo $description; ?></p>
     <h2>Projects</h2>
     <p>Most of our projects will be in PHP. We will add more information about each project as we have time.</p>
     <ul>
