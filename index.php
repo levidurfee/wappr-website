@@ -12,6 +12,7 @@
   <meta property="og:title" content= "Wappr" />
   <meta property="og:image" content="https://cdn.ween.io/w/og-wapper.png" />
   <meta property="og:url" content="https://wappr.co/" />
+  <meta property="og:description" content="A group of web guys coming together to make stuff." />
   <meta name="keywords" content="wappr, web, developers, projects, php, ticket, system" />
   <meta name="description" content="A group of web guys coming together to make stuff." />
   <link rel='canonical' href='https://wappr.co/' />
