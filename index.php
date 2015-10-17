@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content= "Wappr" />
-  <meta property="og:image" content="https://cdn.ween.io/w/og-wapper.png" />
+  <meta property="og:image" content="https://tlcdn.net/i/1/11445041693.png" />
   <meta property="og:url" content="https://wappr.co/" />
   <meta property="og:description" content="<?php echo $description; ?>" />
   <meta name="keywords" content="wappr, web, developers, projects, php, ticket, system" />
