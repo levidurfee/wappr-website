@@ -20,7 +20,7 @@
   <meta name="description" content="<?php echo $description; ?>" />
   <meta http-equiv="last-modified" content="<?php echo $modified; ?>">
   <link rel='canonical' href='https://wappr.co/the-team/' />
-  <link href="/styles.css" rel="stylesheet" type="text/css">
+  <link href="../styles.css" rel="stylesheet" type="text/css">
   <!--[if lt IE 9]>
   <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -29,6 +29,7 @@
 <body>
     <div id="header">
         <h1>The Team</h1>
+        <?php include('../nav.php'); ?>
     </div><!-- /#header -->
     <div id="content">
         <p class="lead"><?php echo $description; ?></p>

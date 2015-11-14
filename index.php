@@ -29,6 +29,7 @@
 <body>
     <div id="header">
         <h1>Wappr</h1>
+        <?php include('nav.php'); ?>
     </div><!-- /#header -->
     <div id="content">
         <p class="lead"><?php echo $description; ?></p>
