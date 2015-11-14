@@ -35,8 +35,15 @@
         <h2>Levi Durfee</h2>
         <h3>Project Lead</h3>
         <p>Levi has been writing PHP since 2000 and has experienced all sorts of challenges, some he is still trying to figure out.</p>
+        
+        <h2>"The Man"</h2>
+        <h3>Project work-horse</h3>
+        <p>No matter what you put in front of him, he can handle it. Dependable, brilliant, and good with jokes sums up the "Work Horse".</p>
+
         <h2>Pretty Boy</h2>
+        <h3>Front end dev guy</h3>
         <p>Pretty boy is good at graphic design and event better at HTML/CSS/jQuery.</p>
+        <p>He is also learning the back-end world, and picking it up very fast.</p>
     </div><!-- /#content -->
     <div id="footer">
         <p>Copyright &copy; wappr.co 2015.</p>
